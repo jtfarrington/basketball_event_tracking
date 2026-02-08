@@ -2,6 +2,8 @@
 
 A modular computer-vision pipeline for analyzing basketball game footage. The system detects players and the ball, assigns teams by jersey color, tracks possession, computes tactical views via homography, measures player speed/distance, detects passes, interceptions, and shot attempts, then renders all annotations back onto the video.
 
+![](https://github.com/jtfarrington/basketball_event_tracking/blob/main/my_gif.gif)
+
 ## Project Structure
 ```
 basketball_analysis/
