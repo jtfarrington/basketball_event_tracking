@@ -1,0 +1,30 @@
+# Virtual environment
+.venv/
+
+# Model weights (too large for git)
+models/*.pt
+
+# Input/output videos (large binary files)
+input_videos/
+output_videos/
+
+# Cached inference stubs
+stubs/*.pkl
+
+# Training notebook outputs
+training_notebooks/.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
